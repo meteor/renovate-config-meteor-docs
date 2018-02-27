@@ -1,0 +1,24 @@
+{
+  "name": "renovate-config-meteor-docs",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "renovate-config": {
+    "default": {
+      "extends": ["config:base"],
+      "reviewers": ["abernix"],
+      "packageRules": [
+        {
+          "packagePatterns": ["\bhexo\b", "chexo"],
+          "groupName": "Hexo-related packages",
+          "automerge": true
+        }
+      ]
+    }
+  } 
+}
