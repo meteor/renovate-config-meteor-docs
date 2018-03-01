@@ -1,6 +1,6 @@
 {
   "name": "renovate-config-meteor-docs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,10 +20,10 @@
       "packageRules": [
         {
           "packagePatterns": [
-            "\bhexo\b",
+            "\\bhexo\\b",
             "chexo"
           ],
-          "groupName": "Hexo-related packages",
+          "groupName": "Hexo-related",
           "automerge": true
         }
       ]
