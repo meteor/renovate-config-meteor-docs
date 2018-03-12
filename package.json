@@ -12,21 +12,7 @@
   "renovate-config": {
     "default": {
       "extends": [
-        "config:base"
-      ],
-      "prHourlyLimit": 10,
-      "assignees": [
-        "abernix"
-      ],
-      "packageRules": [
-        {
-          "packagePatterns": [
-            "\\bhexo\\b",
-            "chexo"
-          ],
-          "groupName": "Hexo-related",
-          "automerge": true
-        }
+        "mdg-docs"
       ]
     }
   }
