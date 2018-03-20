@@ -13,7 +13,10 @@
     "default": {
       "extends": [
         "mdg-docs"
-      ]
+      ],
+      "nvm": {
+        "automerge": true
+      }
     }
   }
 }
